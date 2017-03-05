@@ -1,0 +1,547 @@
+/* Basic */
+    body {
+        background-color: #160031;
+        color: rgba(255, 255, 255, 0.9);
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400; /*Устанавливает насыщенность шрифта. Нормальное начертание шрифта (которое установлено по умолчанию) эквивалентно 400*/
+        line-height: 23px; 
+        font-size: 16px;   
+        font-style: italic; 
+    }
+    /*strong {color:red;} */
+    a {
+        color: rgba(255, 255, 255, 0.7);
+        text-decoration: none;
+    }
+    a:hover {
+        color: #7A236E;
+    }   
+    h1, h2, h3, h4, h5, h6 {
+        color: rgba(255, 255, 255, 0.9);        
+        font-weight: 400;
+        font-size:19px;   
+    }
+    h1 {
+        font-size:21px; 
+        font-weight: 600;
+    }
+     .label-list{
+        padding-left: 40px;
+        list-style: outside url(http://alinavgusarova.ru/images/dash.png);
+     } 
+     .label-list li{
+      /*  padding-top: 3px;
+        padding-bottom: 3px; */
+     }
+    .notextindent {
+        text-indent: 0px;
+    }
+    .nopadding {
+         padding: 0px;
+     }
+    .floatleft{
+        float:left;
+    }
+    .dotted {
+        border-bottom: 1px dashed rgba(255, 255, 255, 0.7);
+    }     
+    .fontsize20px {
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .fontsize18px {
+        font-size: 18px;
+        font-weight: 600;
+    }
+    .fontsize16px {
+        font-size: 16px;
+    }      
+    .fontsize14px {
+        font-size: 14px;
+        line-height: 16px;
+        text-align: left;
+    }    
+    .fontsize13px {
+        font-size: 13px;
+        line-height: 14px;
+        text-align: left;
+    }
+    .lineheight20px {
+        line-height: 20px; 
+    }
+    .paddingbottom20px {
+        padding-bottom: 20px;
+    }
+    .paddingbottom14px {
+        padding-bottom: 14px;
+    }
+    .paddingbottom12px {
+        padding-bottom: 12px;
+    }
+    .paddingbottom8px {
+        padding-bottom: 8px;
+    }    
+    .paddingbottom6px {
+        padding-bottom: 6px;
+    }    
+
+/* Head */    
+    #head {
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        background: rgba(32, 10, 59, 0.9);    
+        box-shadow: 0px 0px 8px 0px rgba(255, 255, 255, 0.3);
+        z-index: 4;
+        max-height: 48px; /*задаем высоту head, иначе head будет растягиваться при разворачивании меню*/
+        }
+        #head .head-text {
+            font-size: 30px;
+            margin: 10px 0px 0px 40px;
+            float: left;
+            max-width:800px;
+            font-size: 26px;
+            /*background:#2f2f2f;*/
+        }
+        #head .head-text p a {
+            color: rgba(255, 255, 255, 0.9);
+        }
+        #head-menu {
+            list-style:none;
+            float:right;
+            width:51%;
+            margin-top:7px;
+        }
+            #head-menu li {
+                float:right;
+                text-align:center;
+                width:130px;
+            }
+                #head-menu li a {
+                    display:block;
+                    text-decoration:none;
+                    font-size:22px;
+                    padding: 5px 0px 5px 0px;
+                }
+                #head-menu li a:hover {
+                font-weight:bold;
+                }
+/* MENU */
+/*    #menu {
+        font-size: 20px;
+        float:right;
+        margin-top:8px;
+    }
+    #menu li {
+        float:left;
+    }
+    #menu label.select-label {
+        display: block;
+        text-transform: uppercase;
+        padding: 1em 0 1.5em;
+        font-size: 75%;
+        letter-spacing: 1px;
+        font-weight: 700;
+        width: 300px;
+        text-align: left;
+        margin: 0 auto;
+        color: #c0c6c4;
+    }
+    #menu .color-4 label.select-label {
+        color: #282b30;
+        font-size: 1em;
+    }*/
+    #menu {
+        font-size:22px;
+        float:right;
+        margin-top: 3px;
+    }
+        #menu a {
+            cursor: pointer;
+            display:block;
+            padding: 9px 20px 13px;
+        }
+        #menu li.menu-level-one {
+            float: left;
+        }
+        #menu li.menuatelier {
+            max-width:115px;
+        }
+        #menu li.menuservices {
+            max-width:194px;
+        }
+        #menu li.menuproducts {
+            max-width:156px;
+        }
+        #menu li.menugallery {
+            max-width:206px;
+        }        
+            #menu li.menu-level-one ul {
+                width: 359px;
+                background: rgba(32, 10, 59, 0.9); 
+                padding-bottom: 5px;
+                box-shadow: inset 0px 0px 5px rgba(255,255,255,0.25);
+                display: none;
+            }
+            #menu li.menugallery ul {   
+                width: 276px;       /*индивидуальная настройка ширины меню второго уровня для Галереи*/           
+            }            
+            #menu li.menu-level-two a {
+                padding: 3px 20px;  
+                font-size: 90%; 
+            }
+    .menucontactsshort {
+        display: none;
+    }
+            
+/* hideMenu */    
+    .slide_container {
+          width: 100%;
+          position: absolute;
+          top: 58px;
+          z-index: 999;
+    }
+    #hideMenu {
+          padding: 10px 0;
+          box-shadow: 0px 0px 10px 0px rgba(255, 255, 255, 0.3);
+          display: none;
+          background: #160031;
+    }
+        #hideMenu ul {
+              overflow: hidden;
+              margin: 0 auto;
+              max-width: 1000px;
+              width: 100%;
+        }
+        #hideMenu li {
+              float: left;
+              padding: 0;
+              width: 20%;
+              list-style: none;
+        }
+            #hideMenu li a {
+                  display: block;
+                  margin: 0 5%;
+                  padding: 10px 0;
+                  text-align: center;
+                  text-decoration: none;
+                  font-size: 18px;
+            }
+    #btn {
+        position: relative;  
+        margin: 0 auto;
+          width: 100px;
+          height: 15px;
+          box-shadow: 10px 2px 20px 2px rgba(255, 255, 255, 0.2), -10px 2px 20px 2px rgba(255, 255, 255, 0.2);
+          border-radius: 0 0 5px 5px;
+          cursor: pointer;
+    }
+        #btn span {
+              position: relative;
+              top: 6px;
+              left: 50%;
+              display: block;
+              margin-left: -25px;
+              width: 50px;
+              height: 2px;
+              border-radius: 2px;
+              background-color: rgba(255, 255, 255, 0.6);
+              box-shadow: inset 1px 1px 2px rgba(255, 255, 255, 0.6)/*, 1px 1px 1px 2px rgba(255, 255, 255, 0.6)*/;
+        }
+    .hideMenulayer {
+          position: fixed;
+          top: 0;
+          width: 100%;
+          height: 100%;
+            background-color: rgba(26, 31, 44, 0.75);  
+          -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=50)";
+    }
+    
+/*Modal Window Simple*/
+.overlaySimple {
+    background-color: rgba(26, 31, 44, 0.75);
+    bottom: 0;
+    cursor: default;
+    left: 0;
+    opacity: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    visibility: hidden;
+    z-index: 99999;
+        -webkit-transition: opacity .0s;
+        -moz-transition: opacity .0s;
+        -ms-transition: opacity .0s;
+        -o-transition: opacity .0s;
+        transition: opacity .0s;
+}
+.popupSimple {
+    background-color: #160031;
+    color: rgba(255, 255, 255, 0.9);
+    box-shadow: 0px 0px 0px 7px #FFF, 0px 10px 60px 10px rgba(8, 11, 19, 0.55);
+    display: inline-block;
+    left: 50%;
+    opacity: 0;
+    padding: 8px 30px;
+    width: 70%;
+    max-height: 90%;
+    overflow: auto;
+    position: fixed;
+    text-align: justify;
+    top: 50%;
+    visibility: hidden;
+    z-index: 999999;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    -webkit-transition: opacity 1.4s, top 1.4s;  
+    -moz-transition: opacity 1.4s, top 1.4s;  
+    -ms-transition: opacity 1.4s, top 1.4s;  
+    -o-transition: opacity 1.4s, top 1.4s;  
+    transition: opacity 1.4s, top 1.4s;
+}
+/*Content*/
+#content {
+    width:100%;
+    margin-top: 52px; 
+}
+#content .containerContent  {
+    width:95%;
+    margin: 0 auto;
+    padding: 16px 0px 75px 0px;
+    text-align: justify;
+    text-indent: 20px; 
+}
+#content .containerContent .center {
+    text-align: center;
+}
+
+    /*Ателье по пошиву одежды в СПб*/
+        #content .containerContent .trustus{
+            height:180px;
+            width: 1260px;
+            margin:0 auto;
+        }     
+            #content .containerContent .trustus li div{
+                width:400px;
+                float: left;
+                padding:10px;
+            }    
+                #content .containerContent .trustus li div img{
+                    float: left;
+                    margin-right: 10px;
+                    border: solid 1px #fff;
+                } 
+                #content .containerContent .trustus li div p{
+                    margin-top: 34px;
+                    text-align: left;
+                } 
+        #content .containerContent .trustuslast{
+            max-width: 573px;
+            margin: 0 auto;
+            height: 135px;
+        }
+            #content .containerContent .trustuslast img{
+                float: left;
+                margin-right: 10px;
+                margin-left: 10px;
+                border: solid 1px #fff;
+            }   
+            #content .containerContent .trustuslast p{
+                padding-top: 34px; 
+                width: 228px;
+                float: left;
+            }           
+                                 
+        #content .containerContent .geoorder {
+            width: 100%;
+            margin: 0 auto ;
+            width: 750px;
+        }
+        #content .containerContent .geoordertext{
+            text-align: center;
+            position:absolute;
+         }
+     
+    /*Отзывы об ателье*/
+        #content .containerContent .commentsVK{
+            width: 200px;
+            float: right;
+            overflow: hidden;
+            margin-bottom: 60px;
+        }
+        #content .containerContent .commentsLeftBar{
+            margin: 0 200px 0 auto;
+        }        
+        
+        #vk_comments {
+            margin: 0 auto;
+        }
+        
+    /*Пошив одежды*/
+    
+         #content .containerContent ul.tailoring-principle {      
+            text-indent: -75px;
+         }
+             #content .containerContent ul.tailoring-principle li{
+                padding-left: 80px;      
+             }                
+    
+         #content .containerContent ul.tailoring-kind {      
+            width:   1425px;         /* центрируем положение блоков с описанием услуг по пошиву - задаем ширину и margin:0 auto; */ 
+            margin: 0 auto;
+            height: 670px;          /*если не задать высоту, то footer будет наезжать на content*/  
+         }
+             #content .containerContent ul.tailoring-kind li {         
+                float: left;
+                border: 4px solid #fff;
+                margin: 6px;
+             }
+             #content .containerContent ul.tailoring-kind li:hover {  
+                box-shadow: 0px 0px 7px 3px rgba(255, 255, 255 0.5);
+             }            
+                 #content .containerContent ul.tailoring-kind li a {         
+                    color: rgba(255, 255, 255, 0.9);
+                 }
+                /* #content .containerContent ul.tailoring-kind li:hover .tailoring-kind-content {
+                     color: #7A236E;
+                 }*/
+                     #content .containerContent ul.tailoring-kind li a .tailoring-kind-content {         
+                        height: 200px;
+                        width: 440px;
+                        overflow: hidden;
+                        line-height: 21px;
+                     } 
+    
+                         #content .containerContent ul.tailoring-kind li a .tailoring-kind-content img {         
+                            height: 200px;
+                            width: 175px;
+                            float: left;
+                            margin-right: 10px;
+                            border-right: #fff;
+                         }        
+                         #content .containerContent ul.tailoring-kind li a .tailoring-kind-content h2 {         
+                            font-size: 16px;
+                            text-align: center;
+                            padding: 9px;
+                            font-weight: 600;
+                         }
+                         #content .containerContent ul.tailoring-kind li a .tailoring-kind-content p {         
+                            padding: 0px 9px 8px 8px;
+                         } 
+                         #content .containerContent ul.tailoring-kind li a .tailoring-kind-content ul.label-list {         
+                            /*list-style: inside url(http://alinavgusarova.ru/images/dash.png); */
+                            padding: 0px 9px 8px 204px;
+                            text-align: left;
+                         }
+                         #content .containerContent ul.tailoring-kind li a .tailoring-kind-content ul.label-list li{         
+                            float:none;
+                            border: none;
+                            margin: 0px;
+                         }                         
+                         #content .containerContent ul.tailoring-kind li a .tailoring-kind-content ul.label-list li:hover{         
+                            box-shadow: none; 
+                         }                         
+                         
+    /*Прейскурант на пошив одежды*/
+         .spoiler_body { 
+            /* display:none; */
+         }
+         .spoiler_links { 
+             cursor:pointer; 
+             margin-bottom: 5px;
+         }
+             .spoiler_links h2 { 
+                 font-weight: 600;
+             }          
+         
+             .spoiler_links:hover h2 { 
+                 color: #7A236E;
+             }         
+         #content .containerContent .pricetable {
+             margin: 0 auto;
+             max-width: 1150px;
+             box-shadow: 0px 0px 8px 0px rgba(255, 255, 255, 0.3);
+             text-indent: 0px;
+         }
+             #content .containerContent .pricetable td, #content .containerContent .pricetable th {
+                  border: 1px dotted  rgba(255, 255, 255, 0.9);
+                  padding: 1px 10px;  
+                  vertical-align: middle; 
+                  text-align: center;
+             }
+             #content .containerContent .pricetable th {
+                font-weight: 600;
+                background: rgba(32, 10, 59, 0.9);
+                background: rgba(35, 13, 62, 0.9);
+             }
+                 #content .containerContent .pricetable td.textleft {
+                     text-align: left;
+                 }
+                 #content .containerContent .pricetable td.textindent {
+                     text-indent: 20px;
+                 }
+                 #content .containerContent .pricetable td ul .centerdiv-lefttext {
+                    width: 73%;
+                    margin: 0 auto;
+                    text-align: left;
+                 }  
+                      
+    /*Контакты*/
+        #content .contacts  {
+            width: 801px;
+            margin: 0 auto;
+        }
+        #content .contacts img{
+            float:left;
+            margin-right: 30px;
+            margin-left: 70px;
+        }
+        #content .contacts .contacts-text {
+            padding-top: 20px;
+            padding-bottom: 80px;
+        }
+        #content .contacts p.tel2 {
+            text-indent: 76px;
+        }
+        #content .contacts .contacts-map p {
+            position: absolute;
+        }
+    
+/* Footer */
+    #footer {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        overflow: hidden;
+        background:rgba(32, 10, 59, 0.9);    
+        padding-top:5px;
+        box-shadow: 0px 0px 8px 0px rgba(255, 255, 255, 0.3);
+        line-height: 1;  
+    }   
+    
+        #footer .footer-slogan {
+            position: absolute;
+            right: 0px; 
+            bottom: 26px;
+            font-size:24px;
+            font-style: italic;
+            margin: 0 30px 0px 0;
+            
+        }
+        #footer .footercontact {
+            padding: 30px 5px 5px 5px;
+            text-align: center;
+            font-size:14px;
+            color: rgba(255, 255, 255, 0.7);
+        }
+        
+        #footer .icon-footercontact{
+            position:absolute;
+            left: 30px;
+            bottom: 9px;
+        }

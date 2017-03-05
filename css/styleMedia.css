@@ -1,0 +1,365 @@
+   
+                
+    @media screen and (max-width: 1439px){
+        #head {
+            max-height:79px; /*меняем высоту head, иначе head будет растягиваться при разворачивании меню*/
+        }
+        #head .head-text {
+            float: none; /*меню сдвигаем под текст*/
+        }
+        #menu {
+            float: none;
+            margin-left: 18px;
+        }
+         #menu a {
+            padding: 10px 18px; /*уменьшаем отступы, чтобы меню помещалось на экран*/
+        } 
+        #menu li.menuatelier {
+            max-width: 111px;
+        }
+        #menu li.menuservices {
+            max-width: 190px;
+        }
+        #menu li.menuproducts {
+            max-width: 156px;
+        }
+        #content {
+            margin-top: 81px; /*сдвигаем контент вниз*/
+        } 
+    }
+
+/* Ателье по пошиву одежды в СПб*/    
+    
+    @media screen and (max-width: 1260px){   
+        #content .containerContent .trustus{
+            width: 1158px; /*уменьшаем ширину контейнера в блоке Нам доверяют*/
+        }     
+            #content .containerContent .trustus li div{
+                width:366px; /*уменьшаем ширину каждого блока*/
+            }    
+    }
+
+            @media screen and (max-width: 1190px){   
+                #content .containerContent .trustus{
+                    width: 772px; /*уменьшаем ширину контейнера в блоке Нам доверяют*/
+                    height: 350px;  /*увеливаем высоту, т.к. приенено свойство float*/
+                }
+                #content .containerContent .trustuslast {
+                    max-width: 774px;     
+                }
+            }
+   
+                    @media screen and (max-width: 765px){   
+                        #content .containerContent .trustus{
+                            width: 366px; /*уменьшаем ширину контейнера в блоке Нам доверяют*/
+                            height: 508px;  /*увеливаем высоту, т.к. приенено свойство float*/
+                        }
+                        #content .containerContent .trustuslast {
+                            max-width: 560px; 
+                            height: 257px;    
+                        }
+                    }    
+
+                            @media screen and (max-width: 610px){   
+                                #content .containerContent .trustuslast {
+                                    height: 257px;     
+                                }
+                            }     
+
+                                    @media screen and (max-width: 427px){   
+                                        #content .containerContent .trustuslast {
+                                            height: 235px;     
+                                        }
+                                            #content .containerContent .trustuslast img {
+                                                float: none;     
+                                            }                                        
+                                            #content .containerContent .trustuslast p{
+                                                padding-top: 0px;    
+                                            }                                        
+                                    } 
+
+                                            @media screen and (max-width: 386px){   
+                                                #content .containerContent .trustuslast {
+                                                    height: 385px;     
+                                                }
+                                            } 
+
+/*Отзывы об ателье*/
+
+    @media screen and (max-width: 815px){   
+        #content .containerContent .commentsVK{
+            width: 520px;
+            margin: 0 auto;
+            float: none;
+            font-size: 16px;
+            line-height: 27px;
+            /*text-align: left;*/
+            margin-bottom: 0px;
+        }
+            #content .containerContent .commentsVK p{
+                position: absolute;
+                margin-top: 100px;
+                display: block;
+                width:400px;
+            }
+            #content .containerContent .commentsVK img{
+                float: right;
+            }
+            #content .containerContent .commentsVK .cropImgComments{
+                height:275px;
+                overflow: hidden;
+            }
+        #content .containerContent .commentsLeftBar {
+            margin: 0px auto;
+        }
+    }
+
+            @media screen and (max-width: 590px){ 
+                #content .containerContent .commentsVK{
+                    width: 450px;
+                }
+                    #content .containerContent .commentsVK p{
+                        width:320px;
+                        margin-top: 90px; 
+                    }                
+            }
+            
+                @media screen and (max-width: 490px){ 
+                    #content .containerContent .commentsVK{
+                        width: 350px;
+                    }
+                        #content .containerContent .commentsVK p{
+                            width:220px;
+                            margin-top: 70px;
+                        }                
+                }            
+                    @media screen and (max-width: 390px){ 
+                        #content .containerContent .commentsVK{
+                            width: 250px;
+                        }
+                            #content .containerContent .commentsVK p{
+                                width:120px;
+                                margin-top: 50px;
+                            } 
+                             #content .containerContent .commentsVK .cropImgComments{
+                                height: 345px;
+                            }               
+                    }  
+                
+/* Пошив одежды*/                   
+    
+    @media screen and (max-width: 600px){   
+         #content .containerContent ul.tailoring-principle {      
+            text-indent: -25px;
+         }
+             #content .containerContent ul.tailoring-principle li{
+                padding-left: 30px;      
+             }  
+    }
+             
+    @media screen and (max-width: 1439px){   
+         #content .containerContent ul.tailoring-kind {        
+            width: 950px;               /* центрируем положение блоков с описанием услуг по пошиву - задаем ширину и margin:0 auto; */   
+            height: 1110px;              /*если не задать высоту, то footer будет наезжать на content*/
+         }
+    }
+    @media screen and (max-width: 1015px){   
+         #content .containerContent ul.tailoring-kind {        
+            width: 472px;              /* центрируем положение блоков с описанием услуг по пошиву - задаем ширину и margin:0 auto; */ 
+            height: 1988px; 
+        }
+    } 
+
+    
+    
+    
+    
+    @media screen and (max-width: 840px){
+        #menu {
+            margin-left: 0px; /*убираем отступ, чтобы меню помещалось на экран*/
+        }
+         #menu a {
+            padding: 10px 10px; /*уменьшаем отступы, чтобы меню помещалось на экран*/
+        }
+        #menu li.menuatelier {
+            max-width: 95px;
+        }
+        #menu li.menuservices {
+            max-width: 174px;
+        }
+        #menu li.menuproducts {
+            max-width: 138px;
+        }
+    }      
+    @media screen and (max-width: 752px){
+         #menu a {
+            padding: 10px 9px; /*уменьшаем отступы, чтобы меню помещалось на экран*/
+        }
+    }   
+  
+ /* Мобильные устройства */ 
+    @media screen and (max-width: 736px) {
+        body {
+            font-size: 16px;
+        }
+        #head {
+            max-height: 600px; /*меняем высоту head, так чтобы его высота менялась при разворачивании меню с запасом*/
+            position: relative; /*отменяем fixed, чтобы другие объекты не обтекали меню*/
+        } 
+            #head .head-text{  
+                margin: 3px 15px 3px 15px; /*уменьшаем отступы для заголовка*/
+                font-size: 20px;
+                text-align: center;
+            }
+        #menu {
+            font-size:20px;
+            line-height: 22px;
+        }
+            #menu li.menu-level-one {
+                float:none; /*меню по всей ширине*/  
+                max-width: 100%;
+                text-align:center;       /*меню по центру*/   
+            }
+                #menu li.menu-level-one ul {
+                    margin: 0 auto; /*меню второго уровня по центру*/
+                    box-shadow: none;
+                }               
+            #menu a {
+                padding: 0px 10px; /*уменьшаем отступы, чтобы меню занимало меньше место на экране телефона*/
+            }   
+                #menu li.menu-level-two a {
+                    padding: 0px 0px;  /*уменьшаем отступы в меню второго уровня*/
+                }
+      
+        
+    /* Header */
+        #header {
+            text-align: center;
+            height:0px;
+        }
+
+        .menucontactsshort {
+            display: block;
+            font-size: 12px;
+            text-align: center;
+            line-height: 12px;   
+            padding: 7px 5px;
+        }        
+        
+/*------------------------------------*/                
+                
+        /*#header .header-mobile-menu{
+            list-style:none;
+            float:left;
+            width:100%;
+            margin-top:1em;
+        }
+
+            #header .header-mobile-menu li {
+                float:left;
+                text-align:center;
+                width:33%;
+            }
+
+            #header .header-mobile-menu .menutwo{
+                width:50%;
+            }            
+            
+                #header .header-mobile-menu li a {
+                    font-size:1.2em;
+                    padding: 5px 0px 5px 0px;
+                }                
+        #header .header-mobile-text {
+            padding: 5.5em 1em 1em 1em;
+            text-align: right;
+            font-style: italic;
+            line-height:1.2;
+        }*/
+        /*#header .header-desktop {
+            display: none;
+        }        */
+        
+        #content {
+            margin-top: 0px; /*т.к. меню стало position relative*/
+        }
+        #content .containerContent {
+            width: 95%;
+            padding: 15px 0px 20px;
+        }
+        
+    /*Контакты*/
+        #content .contacts  {
+            width: 100%;
+        }
+        #content .contacts img{
+            margin-right: 20px;
+            margin-left: 0px;
+        }
+        #content .contacts .contacts-text {
+            padding-top: 0px;      
+            padding-bottom: 80px;      
+        }
+   
+        #footer { 
+            position:relative;
+        }       
+        #footer .footer-slogan {
+            font-size: 16px;
+            width:75%;
+            bottom: 30px;
+            margin: 0px 10px 0px 0px;
+        }
+        #footer .footercontact {
+            font-size: 10px; 
+            width:87%;
+            float:right;
+            padding: 45px 5px 5px;
+        }
+        #footer .icon-footercontact {
+            left:6px;
+        }
+        
+    }
+
+    @media screen and (max-width: 550px) {
+         #content .containerContent .pricetable td {
+              padding: 1px 5px;  
+         }    
+        } 
+  
+    @media screen and (max-width: 500px) {
+         #content .containerContent .pricetable td {
+              padding: 1px 3px;  
+         }         
+        
+        #content .contacts img{
+            display:block;
+            width:200px;
+            float:none;
+            margin: 0 auto 20px auto;
+        }
+        #content .contacts .contacts-text {
+            text-align: center;
+            padding-bottom: 20px;  
+        } 
+         
+    }
+    
+    @media screen and (max-width: 480px) {
+      #hideMenu {
+            padding: 5%;
+      }
+      #hideMenu li {
+            width: 100%;
+      }
+      #hideMenu li a {
+            border-top: none;
+      }
+        #content .containerContent .pricetable td {
+              font-size:14px;
+        }  
+         #content .containerContent .pricetable td.textindent {
+             text-indent: 10px;
+         }
+      
+    }    

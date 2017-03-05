@@ -1,0 +1,59 @@
+#contacts1 {
+	margin:130px 0 50px 200px;
+}
+
+	#contacts1 .qr {
+		float: left;
+	}
+
+	#contacts1 .contacts1-text {
+		margin-left:250px;
+	}
+
+	#contacts1 .contacts1-text p{
+		margin:8px 0 0 0 ;
+}
+
+		#tel2{
+			padding: 0px 0px 0px 88px;
+		}
+
+#map p {
+	position: absolute;
+}
+
+#map {
+	margin: 0px 0px 55px 200px;	
+	z-index: 10;
+}
+
+#footer-slogan {
+	margin-bottom:15px;
+	}
+
+@media screen and (max-width: 736px) {
+	#head {
+		display: block;
+	}
+	
+	#contacts1 {
+		margin: 180px 20px 50px 20px;
+		/*margin: 180px auto;*/
+	}
+	
+	#map {
+		display:none;
+	}
+	
+	#contacts1 .qr {
+		float: none;
+	}
+	
+	#contacts1 .contacts1-text {
+		margin-left:20px;
+	}
+	
+	
+	
+	
+}	

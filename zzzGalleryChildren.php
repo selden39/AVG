@@ -1,0 +1,46 @@
+                        <div class="spoiler_links"> 
+                            <h2>Детская одежда</h2>
+                        </div>
+                        <div class="spoiler_body"> 
+                            <div id="gallerychildren" style="display:none;">
+                                <a href="http://alinavgusarova.ru/">        <img alt="Детская одежда"        src="http://alinavgusarova.ru/images/gallery/thumbs/children-1.jpg"        data-image="http://alinavgusarova.ru/images/gallery/big/children-1.jpg"        data-description="Детская одежда"        style="display:none">        </a>
+                                <a href="http://alinavgusarova.ru/">        <img alt="Детская одежда"        src="http://alinavgusarova.ru/images/gallery/thumbs/children-2.jpg"        data-image="http://alinavgusarova.ru/images/gallery/big/children-2.jpg"        data-description="Детская одежда"        style="display:none">        </a>
+                                <a href="http://alinavgusarova.ru/">        <img alt="Детская одежда"        src="http://alinavgusarova.ru/images/gallery/thumbs/children-3.jpg"        data-image="http://alinavgusarova.ru/images/gallery/big/children-3.jpg"        data-description="Детская одежда"        style="display:none">        </a>
+                                <a href="http://alinavgusarova.ru/">        <img alt="Детская одежда"        src="http://alinavgusarova.ru/images/gallery/thumbs/children-4.jpg"        data-image="http://alinavgusarova.ru/images/gallery/big/children-4.jpg"        data-description="Детская одежда"        style="display:none">        </a>
+                                
+                                <a href="http://alinavgusarova.ru/">        <img alt="Детская одежда"        src="http://alinavgusarova.ru/images/gallery/thumbs/children-15.jpg"        data-image="http://alinavgusarova.ru/images/gallery/big/children-15.jpg"        data-description="Детская одежда"        style="display:none">        </a>
+                                <a href="http://alinavgusarova.ru/">        <img alt="Детская одежда"        src="http://alinavgusarova.ru/images/gallery/thumbs/children-16.jpg"        data-image="http://alinavgusarova.ru/images/gallery/big/children-16.jpg"        data-description="Детская одежда"        style="display:none">        </a>
+                                <a href="http://alinavgusarova.ru/">        <img alt="Детская одежда"        src="http://alinavgusarova.ru/images/gallery/thumbs/children-17.jpg"        data-image="http://alinavgusarova.ru/images/gallery/big/children-17.jpg"        data-description="Детская одежда"        style="display:none">        </a>
+                                <a href="http://alinavgusarova.ru/">        <img alt="Детская одежда"        src="http://alinavgusarova.ru/images/gallery/thumbs/children-18.jpg"        data-image="http://alinavgusarova.ru/images/gallery/big/children-18.jpg"        data-description="Детская одежда"        style="display:none">        </a>
+                                <a href="http://alinavgusarova.ru/">        <img alt="Детская одежда"        src="http://alinavgusarova.ru/images/gallery/thumbs/children-19.jpg"        data-image="http://alinavgusarova.ru/images/gallery/big/children-19.jpg"        data-description="Детская одежда"        style="display:none">        </a>
+                                <a href="http://alinavgusarova.ru/">        <img alt="Детская одежда"        src="http://alinavgusarova.ru/images/gallery/thumbs/children-20.jpg"        data-image="http://alinavgusarova.ru/images/gallery/big/children-20.jpg"        data-description="Детская одежда"        style="display:none">        </a>                                
+                                
+                                <a href="http://alinavgusarova.ru/">        <img alt="Детская одежда"        src="http://alinavgusarova.ru/images/gallery/thumbs/children-5.jpg"        data-image="http://alinavgusarova.ru/images/gallery/big/children-5.jpg"        data-description="Детская одежда"        style="display:none">        </a>
+                                <a href="http://alinavgusarova.ru/">        <img alt="Детская одежда"        src="http://alinavgusarova.ru/images/gallery/thumbs/children-6.jpg"        data-image="http://alinavgusarova.ru/images/gallery/big/children-6.jpg"        data-description="Детская одежда"        style="display:none">        </a>
+                                <a href="http://alinavgusarova.ru/">        <img alt="Детская одежда"        src="http://alinavgusarova.ru/images/gallery/thumbs/children-7.jpg"        data-image="http://alinavgusarova.ru/images/gallery/big/children-7.jpg"        data-description="Детская одежда"        style="display:none">        </a>
+                                <a href="http://alinavgusarova.ru/">        <img alt="Детская одежда"        src="http://alinavgusarova.ru/images/gallery/thumbs/children-8.jpg"        data-image="http://alinavgusarova.ru/images/gallery/big/children-8.jpg"        data-description="Детская одежда"        style="display:none">        </a>
+                                <a href="http://alinavgusarova.ru/">        <img alt="Детская одежда"        src="http://alinavgusarova.ru/images/gallery/thumbs/children-9.jpg"        data-image="http://alinavgusarova.ru/images/gallery/big/children-9.jpg"        data-description="Детская одежда"        style="display:none">        </a>
+                                
+                                <a href="http://alinavgusarova.ru/">        <img alt="Детская одежда"        src="http://alinavgusarova.ru/images/gallery/thumbs/children-21.jpg"        data-image="http://alinavgusarova.ru/images/gallery/big/children-21.jpg"        data-description="Детская одежда"        style="display:none">        </a>
+                                <a href="http://alinavgusarova.ru/">        <img alt="Детская одежда"        src="http://alinavgusarova.ru/images/gallery/thumbs/children-22.jpg"        data-image="http://alinavgusarova.ru/images/gallery/big/children-22.jpg"        data-description="Детская одежда"        style="display:none">        </a>
+                                <a href="http://alinavgusarova.ru/">        <img alt="Детская одежда"        src="http://alinavgusarova.ru/images/gallery/thumbs/children-23.jpg"        data-image="http://alinavgusarova.ru/images/gallery/big/children-23.jpg"        data-description="Детская одежда"        style="display:none">        </a>                                
+                                
+                                <a href="http://alinavgusarova.ru/">        <img alt="Детская одежда"        src="http://alinavgusarova.ru/images/gallery/thumbs/children-10.jpg"        data-image="http://alinavgusarova.ru/images/gallery/big/children-10.jpg"        data-description="Детская одежда"        style="display:none">        </a>
+                                <a href="http://alinavgusarova.ru/">        <img alt="Детская одежда"        src="http://alinavgusarova.ru/images/gallery/thumbs/children-11.jpg"        data-image="http://alinavgusarova.ru/images/gallery/big/children-11.jpg"        data-description="Детская одежда"        style="display:none">        </a>
+                                <a href="http://alinavgusarova.ru/">        <img alt="Детская одежда"        src="http://alinavgusarova.ru/images/gallery/thumbs/children-12.jpg"        data-image="http://alinavgusarova.ru/images/gallery/big/children-12.jpg"        data-description="Детская одежда"        style="display:none">        </a>
+                                <a href="http://alinavgusarova.ru/">        <img alt="Детская одежда"        src="http://alinavgusarova.ru/images/gallery/thumbs/children-13.jpg"        data-image="http://alinavgusarova.ru/images/gallery/big/children-13.jpg"        data-description="Детская одежда"        style="display:none">        </a>
+                                <a href="http://alinavgusarova.ru/">        <img alt="Детская одежда"        src="http://alinavgusarova.ru/images/gallery/thumbs/children-14.jpg"        data-image="http://alinavgusarova.ru/images/gallery/big/children-14.jpg"        data-description="Детская одежда"        style="display:none">        </a>
+                            </div> 
+                        </div> <!-- spoiler_body -->                   
+                        <script type="text/javascript">
+                            jQuery(document).ready(function(){
+                                jQuery("#gallerychildren").unitegallery({
+                                    carousel_space_between_tiles: 10,        /*space between tiles - расстояние между фотками в галерее*/
+                                    carousel_autoplay: true,
+                                    theme_navigation_margin: 2, /*расстояние между фото и навигацией*/    
+                                    carousel_padding: 8,     
+                                    tile_border_width: 4, /*толщина рамки в галерее*/
+                                    tile_border_color:"#fff",    /*цвет рамки в галерее*/ 
+                                });
+                            });
+                        </script>         
